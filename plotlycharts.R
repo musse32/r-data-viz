@@ -1,13 +1,13 @@
-##Interactive Data Viz
+#' Interactive Data Viz
 
-#Import plotly
+#' Import plotly
 library(plotly)
 data(diamonds, package= "ggplot2")
 
 str(diamonds)
 head(diamonds)
 
-#Visualizing categorical data
+#' Visualizing categorical data
 
 cut_freq <- plot_ly(diamonds, x = ~cut)
 cut_freq
