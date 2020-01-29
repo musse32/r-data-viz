@@ -73,7 +73,7 @@ gapminder2 %>%
  
 # Data Visualization
 library(ggplot2)
-#Scatter plot of two variables
+#Scatter plot of two variables, label with country using color
 gapminder2007 <- gapminder2 %>%
                   filter(year == 2007)
 gapminder2007
