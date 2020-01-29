@@ -2,9 +2,7 @@
 title: "plotlycharts-markdown"
 author: "musse32"
 date: "1/27/2020"
-output:
-  html_document:
-    df_print: paged
+output: html_document
 ---
 # Interactive Data Viz
 
